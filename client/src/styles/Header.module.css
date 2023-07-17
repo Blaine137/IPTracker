@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Rubik";
+    src: url("https://fonts.googleapis.com/css2?family=Montserrat&family=Rubik&display=swap");
+}
+.trackerHeader {
+    height: 40vh;
+    background: url(../../public/pattern-bg-mobile.png);
+}
+
+.trackerH1{
+    font-family: "Rubik";
+    text-align: center;
+    font-weight: 250;
+    padding-top: 20px;
+}
+
+#ip{
+    width: 100%;
+}
