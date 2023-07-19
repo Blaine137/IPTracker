@@ -4,7 +4,10 @@ export default function Header(){
     return(
         <header className={styles.trackerHeader}>
             <h1 className={styles.trackerH1}>IP Address Tracker</h1>
-            <input type="text" id="ip" name="ip"/>
+            <div className={styles.inputWrapper}>
+                <input type="text" id={styles.ip} name="ip"/>
+            </div>
+            
         </header>
     )
   }
