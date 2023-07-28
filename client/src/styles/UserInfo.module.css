@@ -1,0 +1,23 @@
+.userInfo{
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    margin: 25px 25px 0 25px;
+}
+
+.UserInfoBigHeading, .userInfoSmallHeading{
+    font-family: 'Rubik';
+    text-align: center;
+}
+
+.userInfoSmallHeading{
+    color: hsl(0, 0%, 59%);
+    padding-top: 25px;
+}
+
+.UserInfoBigHeading{
+    color: black;
+}
+
+.UserInfoBigHeading:last-child{
+    padding-bottom: 25px;
+}

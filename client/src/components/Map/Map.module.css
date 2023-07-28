@@ -1,1 +1,9 @@
-#map { height: 400px; }
+#map { 
+    height: 400px;
+    z-index: -1; 
+}
+
+.iconMarker{
+    background: none;
+    border: none;
+}

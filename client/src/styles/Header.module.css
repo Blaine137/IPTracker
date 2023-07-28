@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Rubik";
+    src: url("https://fonts.googleapis.com/css2?family=Montserrat&family=Rubik&display=swap");
+}
+.trackerHeader {
+    height: 40vh;
+    background: url(../../public/pattern-bg-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.trackerH1{
+    font-family: "Rubik";
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.6rem;
+    padding-top: 20px;
+}
+
+#ip{
+    width: 73vw;
+    display: inline-block;
+    height: 50px;
+    border: none;
+    border-radius: 15px 0 0 15px;
+    font-size: 1.1rem;
+}
+
+#ip:active{
+    border: none;
+}
+
+#ip::placeholder{
+    color: black;
+    padding-left: 25px;
+    font-family: 'Rubik';
+}
+
+.inputWrapper{
+    margin: 25px 25px 0 25px;
+    position: relative;
+}
+
+.inputWrapper::after{
+    content: "";
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    display: inline-block;
+    position: absolute;
+    border-radius: 0 15px 15px 0;
+    background: url(../../public/icon-arrow.svg), hsl(0, 0%, 17%);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
